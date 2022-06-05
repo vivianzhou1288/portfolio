@@ -1,0 +1,134 @@
+html,
+body,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+:root {
+  /* Typography */
+  --h1: 7.594rem;
+  --h2: 5.063rem;
+  --h3: 3.375rem;
+  --h4: 2.25rem;
+  --h5: 1.5rem;
+  --font-family: "Montserrat", sans-serif;
+}
+
+.navbar{
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  z-index: 1;
+  font-size: 1.25rem;
+  background: lightblue;
+}
+.nav-links{
+    display: flex;
+    margin-right: 3rem;
+    list-style: none;
+}
+.logo{
+  display: flex;
+  flex-direction: row;
+  color: white;
+  letter-spacing: 5px;
+  font-size: 5rem;
+  padding-left: 5rem;
+  font-family: 'Ma Shan Zheng', cursive;
+}
+.logo h4{
+  padding-top: 0.7rem;
+}
+.logo img{
+  height: 5rem;
+  width: 5rem;
+  margin-right: 2rem;
+}
+ul li {
+    padding: 25px 25px;
+  } 
+.navbar a{
+  display: block;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2rem;
+  color: #ffffff;
+  text-decoration: none;
+}
+.links:hover {
+  color: #f25e5e;
+  font-weight: bold;
+}
+/*Intro*/
+.title-intro{
+  margin-bottom: .25em;
+  font-size: var(--h1);
+}
+.title-subtitle{
+  font-size: var(--h2);
+  margin-bottom: 1em;
+}
+.intro{
+  width: 80%;
+  margin: auto;
+  text-align: left;
+  padding-top: 100px;
+}
+.everything{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.image img{
+  width: 15.625rem;
+  margin-right: 15rem; 
+}
+.texts{
+  flex-basis: 60%;
+  margin-bottom: 15%;
+  padding: 30px 150px;
+}
+.texts h1, p{
+  margin: 10px 0;
+}
+
+/*About Me*/
+.description{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding: 50px;
+  border: 3px solid #000000;
+  border-right-style: none;
+  border-left-style: none;
+  margin-bottom: 3rem;
+}
+.description h1{
+  font-size: var(--h2);
+}
+.description p{
+  font-size: var(--h3);
+}
+
+/*Footer*/
+.footer {
+  width: 100%;
+  text-align: center;
+  padding: 1.875rem 0;
+}
+.icons .fa {
+  color: black;
+  margin: 0 0.813rem;
+  cursor: pointer;
+  padding: 1.125rem 0;
+  font-size: 3rem;
+}
+.footer h5{
+  font-size: var(--h5);
+}
