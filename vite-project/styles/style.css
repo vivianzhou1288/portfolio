@@ -15,7 +15,7 @@ body,
   --h5: 1.5rem;
 }
 
-.navbar{
+.navbar {
   display: flex;
   position: relative;
   justify-content: space-between;
@@ -23,28 +23,28 @@ body,
   color: white;
   z-index: 1;
   font-size: 1.25rem;
-  background: lightblue;
+  background: gray;
 }
-.nav-links{
-    display: flex;
-    margin-right: 3rem;
-    list-style: none;
+.nav-links {
+  display: flex;
+  margin-right: 3rem;
+  list-style: none;
 }
-.logo{
+.logo {
   display: flex;
   flex-direction: row;
   color: white;
   letter-spacing: 5px;
   font-size: 5rem;
   padding-left: 5rem;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
 }
 ul li {
-    padding: 25px 25px;
-  } 
-.navbar a{
+  padding: 25px 25px;
+}
+.navbar a {
   display: block;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 2rem;
@@ -57,42 +57,43 @@ ul li {
   font-weight: bold;
 }
 /*Intro*/
-.title-intro{
-  margin-bottom: .25em;
+.title-intro {
+  margin-bottom: 0.25em;
   font-size: var(--h1);
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
-.title-subtitle{
+.title-subtitle {
   font-size: var(--h2);
   margin-bottom: 1em;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
-.intro{
+.intro {
   width: 80%;
   margin: auto;
   text-align: left;
   padding-top: 100px;
 }
-.everything{
+.everything {
   margin-top: 5%;
   display: flex;
   justify-content: space-between;
 }
-.image img{
+.image img {
   width: 30rem;
-  margin-right: 15rem; 
+  margin-right: 15rem;
 }
-.texts{
+.texts {
   flex-basis: 60%;
   margin-bottom: 15%;
   padding: 30px 150px;
 }
-.texts h1, p{
+.texts h1,
+p {
   margin: 10px 0;
 }
 
 /*About Me*/
-.description{
+.description {
   width: 80%;
   margin: auto;
   text-align: center;
@@ -102,13 +103,13 @@ ul li {
   border-left-style: none;
   margin-bottom: 20rem;
 }
-.description h1{
+.description h1 {
   font-size: var(--h2);
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
-.description p{
+.description p {
   font-size: var(--h3);
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 /*Footer*/
@@ -124,11 +125,11 @@ ul li {
   padding: 1.125rem 0;
   font-size: 3rem;
 }
-.footer h5{
+.footer h5 {
   font-size: var(--h5);
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
 }
-.footer h3{
+.footer h3 {
   font-size: var(--h3);
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
 }
