@@ -34,7 +34,7 @@ body,
   display: flex;
   flex-direction: row;
   color: white;
-  letter-spacing: 5px;
+  letter-spacing: 3px;
   font-size: 5rem;
   padding-left: 5rem;
   font-family: "Roboto Slab", serif;
