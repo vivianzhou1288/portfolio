@@ -138,6 +138,40 @@ ul li {
   width: 30rem;
 }
 
+/*Skills*/
+.title-skills {
+  width: 80%;
+  margin: auto;
+  text-align: left;
+  padding-top: 10rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: var(--h3);
+  margin-bottom: 10rem;
+}
+.skills {
+  margin-bottom: 10rem;
+}
+.pics {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.skill {
+  text-align: center;
+  width: 10rem;
+}
+.skill p {
+  font-size: var(--h2);
+  font-family: "Roboto Slab", serif;
+}
+
+.skills img {
+  width: 25rem;
+  height: 25rem;
+  object-fit: cover;
+}
+
 /*Footer*/
 .footer {
   width: 100%;
