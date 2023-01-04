@@ -57,8 +57,12 @@ ul li {
   font-weight: bold;
 }
 /*Intro*/
-.title-intro {
+.title-intro{
   margin-bottom: 0.25em;
+  font-size: var(--h1);
+  font-family: "Montserrat", sans-serif;
+}
+.auto-input{
   font-size: var(--h1);
   font-family: "Montserrat", sans-serif;
 }
@@ -79,8 +83,9 @@ ul li {
   justify-content: space-between;
 }
 .image img {
-  width: 30rem;
+  width: 40rem;
   margin-right: 15rem;
+  border-radius: 5rem;
 }
 .texts {
   flex-basis: 60%;

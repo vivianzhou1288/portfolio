@@ -29,18 +29,18 @@ const experience = [
   {
     name: "PitchTeen",
     description:
-      "Technology Manager | Aug 2021 - Present <br><br> Marketing Manager | Aug 2021 - Present",
+      "Technology Manager | Aug 2021 - Jun 2022 <br><br> Marketing Manager | Aug 2021 - Jun 2022",
     img: "https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/challenge_thumbnails/001/472/590/datas/original.png",
   },
   {
     name: "Clubhouse-to-Career/College (C2C) Pathways Program ",
-    description: "Member | Jan 2022 - Present",
+    description: "Member | Jan 2022 - Jun 2022",
     img: "https://www.bklynlibrary.org/sites/default/files/styles/eventcal_large/public/images/events/calendar/BBY_TeenTechCenter_Lockup_Logo_vt_RGB.png",
   },
   {
     name: "Brooklyn Public Library",
     description:
-      "Technology Intern | Jul 2021 - Present <br><br> Book Buddy | Jul 2019 - Aug 2019",
+      "Technology Intern | Jul 2021 - Jun 202 <br><br> Book Buddy | Jul 2019 - Aug 2019",
     img: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Brooklyn_Public_Library_logo.svg/1280px-Brooklyn_Public_Library_logo.svg.png",
   },
   {
@@ -50,8 +50,13 @@ const experience = [
   },
   {
     name: "STEM Without Boundaries",
-    description: "Director of Media | Jun 2021 - Present",
+    description: "Director of Media | Jun 2021 - Jun 2022",
     img: "https://static.wixstatic.com/media/b2004d_ef2ca99fbf4849bb927477dab21ca97e~mv2.png/v1/crop/x_0,y_83,w_619,h_455/fill/w_260,h_188,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/big%20logo%202_PNG.png",
+  },
+  {
+    name: "illumiNET Media",
+    description: "Marketing Intern | Jun 2022 - Aug 2022",
+    img: "https://static.wixstatic.com/media/f57383_83611ba6715c43d5b2c01eef5652962a~mv2.png/v1/fill/w_250,h_233,al_c/f57383_83611ba6715c43d5b2c01eef5652962a~mv2.png",
   },
 ];
 export { experience };
