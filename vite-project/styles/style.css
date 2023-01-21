@@ -86,6 +86,7 @@ ul li {
   width: 40rem;
   margin-right: 15rem;
   border-radius: 5rem;
+  margin-bottom: 3rem;
 }
 .texts {
   flex-basis: 60%;
